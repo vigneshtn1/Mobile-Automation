@@ -61,7 +61,7 @@ public class Calculator_App {
         Press_add.click();
         Press7.click();
         Press_equal.click();
-        System.out.println("Answer for 3+7= "+Get_Answer.getText());
+        System.out.println("Answer for 3+7="+Get_Answer.getText());
         Clear_Values.click();
         
         // Basic Subtraction Function
@@ -69,7 +69,7 @@ public class Calculator_App {
         Press_sub.click();
         Press1.click();
         Press_equal.click();
-        System.out.println("Answer for 9-1= "+Get_Answer.getText());
+        System.out.println("Answer for 9-1="+Get_Answer.getText());
         Clear_Values.click();
         
         // Basic Multiplication Function
@@ -77,7 +77,7 @@ public class Calculator_App {
         Press_mutiple.click();
         Press4.click();
         Press_equal.click();
-        System.out.println("Answer for 2*4= "+Get_Answer.getText());
+        System.out.println("Answer for 2*4="+Get_Answer.getText());
         Clear_Values.click();
         
         // Basic Division Function
@@ -86,14 +86,14 @@ public class Calculator_App {
         Press_div.click();
         Press6.click();
         Press_equal.click();
-        System.out.println("Answer for 5/6= "+Get_Answer.getText());
+        System.out.println("Answer for 5/6="+Get_Answer.getText());
         Clear_Values.click();
         
         // Basic Percentage Function
         Press8.click();
         Press_percentage.click();
         Press_equal.click();
-        System.out.println("Answer for 8%= "+Get_Answer.getText());
+        System.out.println("Answer for 8%="+Get_Answer.getText());
         Clear_Values.click();
 
 	}
